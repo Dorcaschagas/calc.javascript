@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(90deg, black, red);
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.calculadora{
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden; /*deixa os itens dentro da "caixa"*/
+    width: 250px;
+    height: 370px;
+    background-image: linear-gradient(90deg, rgba(255, 166, 0, 0.619), rgba(255, 0, 0, 0.619), rgba(0, 0, 255, 0.55));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.botao{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    margin: 1px;
+    border-radius: 25%;
+}
+
+.botao:hover{
+    background-color: gray;
+}
+
+#display{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 215px;
+    height: 150px;
+    padding-top: 22px;
+    text-align: end;
+    overflow: hidden;
+    color: black;
+}
